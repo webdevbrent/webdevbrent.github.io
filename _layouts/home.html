@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+    <div class="row justify-md-center">
+        <div class="col">
+            <div class="media mb-2 mt-2 p-3">
+                <img class="align-self-center mr-3" src="{{ site.author_img }}" alt="Generic placeholder image">
+                <div class="media-body">
+                  <h5 class="mt-0">{{ site.author }}</h5>
+                    <p class="mb-2">
+                        {{ site.about_author}}
+                        You can see what I am up to by visiting my github <a href="http://github.com/{{ site.social_github }}" target="_blank">{{ site.social_github }}</a>.
+                    </p>  
+                </div>
+            </div>
+        </div>
+      </div>
+    {% include demos.html %}
+    {% include posts_limit_4.html %}
+    

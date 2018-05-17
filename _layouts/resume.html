@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+{% assign author = site.data.resume.author %}
+{% assign summary = site.data.resume.summary %}
+{% assign proskills = site.data.resume.proskills %}
+{% assign compskills = site.data.resume.compskills %}
+{% assign experience = site.data.resume.experience %}
+{% assign education = site.data.resume.education %}
+
+
+<div class="container mt-3 bg-light text-dark">
+        <div class="row align-items-center shadow p-3 mb-5 bg-dark rounded">
+                {% for entry in author %}
+                <div class="col-lg bg-dark text-light text-center text-md m-col">
+                    {{ entry.name }}
+                    {{ entry.address }}
+                    {{ entry.phonenumber }}
+                    {{ entry.email }}
+                </div>
+                {% endfor %}
+                <a href="http://github.com/{{ site.social_github }}" target="_blank" class="btn btn-outline-light m-btn"><i class="fab fa-github fa-5x"></i></a>
+        </div>
+        <div class="row p-2 border-bottom text-center">
+            {% for entry in summary %}
+               <span style="font-size: 25px">{{ entry }}</span> 
+            {% endfor %}  
+        </div>        
+        
+        <div class="row p-2">
+                <h3 class="p-2">Programming Skillset</h3>
+            <div class="col-12 mb-3">
+                <h4>Languages</h4>
+                <ul class="list-group list-group-flush">
+                {% for entry in proskills.languages %}
+                <li class="list-group-item">{{ entry }}</li>
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="col-12">
+                <h4>Databases</h4>
+                <ul class="list-group list-group-flush">
+                {% for entry in proskills.databases %}
+                <li class="list-group-item">{{ entry }}</li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="row p-2">
+            <h3 class="p-2">Computer Skillset</h3>
+            <div class="col-12 mb-3">
+                    <ul class="list-group list-group-flush">
+                    {% for entry in compskills %}
+                    <li class="list-group-item">{{ entry.skill }}</li>
+                    {% endfor %}
+                    </ul>
+            </div>
+        </div>
+        
+        <div class="row p-2">
+            <h3 class="p-2">Professional Experience</h3>
+            <div class="col-12 mb-3 mt-3">
+                    {% for item in experience %}
+                    <h1 class="mt-3">{{ item.company }}</h1>
+                    {% for entry in item.subfolderitems %}
+                        <p>{{ entry.jobtitle }}
+                        {{ entry.toandfromdates }}
+                        {{ entry.location }}
+                        {{ entry.phonenumber }}
+                        {{ entry.skill }}
+                        </p>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <br>
+        
+            
+            
+            
+        
+
+
+        <div class="row p-2">
+                <h3 class="p-2">Education</h3>
+                <div class="col-12 mb-3">
+                    <ul class="list-group list-group-flush">
+                            {% for entry in education.school %}
+                        <li class="list-group-item p-5"><h2 class="text-light pl-2">{{ entry.name }}</h2> {{ entry.toandfromdates }} {{ entry.degree }} </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+</div>

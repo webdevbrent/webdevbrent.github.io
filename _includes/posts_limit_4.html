@@ -1,0 +1,19 @@
+<h2 class="p-3 mt-5">{% if site.posts.size == 1 %} Bloggy Thing ({{ site.posts.size }}) {% else %} Bloggy Things ({{ site.posts.size }}) {% endif %}</h2>
+
+<div class="row justify-content-md-center">
+    {% for post in site.posts limit:4 %}
+      {% assign indexmod3 = forloop.index | modulo: 3 %}
+      {% if indexmod3 == 0 %}<div style="clear: both;"></div>{% endif %}
+    <div class="col mb-2">
+        <div class="card" style="">
+            <img class="card-img-top img-fluid" src="{{ post.img }} " alt="{{ post.title }}">
+            <div class="card-body">
+              <h5 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+              <p class="card-text">{{ post.excerpt | truncatewords:25 }}</p>
+              <a href="{{ post.url }}" class="btn btn-info float-right">{{ post.title }}</a>
+            </div>
+        </div>
+
+    </div>
+    {% endfor %}
+</div>

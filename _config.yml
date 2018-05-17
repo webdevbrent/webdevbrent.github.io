@@ -1,35 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Brent Codes
-email: webdeveloperbrent@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author: Brent Phillips # add your name
+author_img: https://media.licdn.com/dms/image/C4E03AQHQsDJKpKjXXA/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=PkY8h9-7hicYqZ57jPHfOc_4eDOTAqOx9sC1GM7fAQA # add your photo
+about_author: >- 
   This website serves as an online presence. It will include
   my resume, demos of things I have created, an about me section
   if you care to get to know me better and tips and tricks about 
   programming as I can dream them up.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  webdevbrent
+social_twitter: # add your Twitter handle
+social_facebook: # add your Facebook handle
+social_github: webdevbrent # add your Github handle
+social_linkedin: # add your Linkedin handle
+social_email: webdeveloperbrent@gmail.com # add your Email address
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Collections
+collections:
+  demos:
+    output: true
+    permalink: /my-demos/:path/
+
+# SASS
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

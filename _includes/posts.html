@@ -1,0 +1,13 @@
+<h2 class="alert-info p-3">All Posts</h2>
+
+<ul class="list-group list-group-flush">
+    {% for post in site.posts %}
+    {% assign indexmod3 = forloop.index | modulo: 3 %}
+    {% if indexmod3 == 0 %}<div style="clear: both;"></div>{% endif %}
+    <li class="list-group-item">
+      <img src="{{ post.img }}" alt="{{ post.title }}" class="img-thumbnail" height="60px" width="60px">
+      <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+      <p>{{ post.excerpt | truncatewords:75 }}</p>
+    </li>
+    {% endfor %} 
+</ul>

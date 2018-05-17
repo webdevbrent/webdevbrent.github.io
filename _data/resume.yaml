@@ -1,0 +1,115 @@
+author:
+  - name: Brent Phillips
+  - address: 1510 Laurelwood Way Frederick, MD, 21701
+  - phonenumber: (517) 599-3186
+  - email: webdeveloperbrent@gmail.com
+
+summary: >
+  Web Developer with a passion for web application development. Skilled in conceptualizing, designing, development,
+  and deploying software containing logical solutions to business problems. Dedicated to driving innovation with the
+  ability to follow industry and technical trends, and facilitating early adoptions of innovations.
+
+proskills:
+  languages:
+    - HTML
+    - CSS3
+    - JavaScript
+    - jQuery
+    - Git
+    - Bootstrap
+  databases:
+    - Firebase - Used to develop a simple chat application using the ReactJS library.
+    - MongoDB - Used to develop an application utitlizing the MeteorJS framework.
+    - postgresql - Used to develop Ruby on Rails applications.
+    - MySQL - Used to develop Wordpress/PHP websites.
+
+compskills:
+  - skill: Technical Troubleshooting - Profecient in troubleshooting Windows, Linux, and MAC operating systems.
+  - skill: Hardware Configurations - Implement and maintain IPads, iMacs, tablets, desktops, laptops, printers, scanners, projectiors, Voice over IP Phones, and Security Camera Systems.
+  - skill: Software Installs - Safely and securely install software onto various platforms ensuring full functionality.
+  - skill: LAN connectivity - Able to troubleshoot LAN connectivity issues.
+  - skill: User Traning/Support - Train users of all skill levels to perform more efficiently on a computer or software.
+  - skill: VPN connectivity - Implement and maintain a VPN server and VPN client.
+
+experience:
+  - company: Beckleys Camping Center
+    subfolderitems:
+      - jobtitle: Systems Administrator
+      - toandfromdates: January 2018 - June 2018
+      - location: Thurmont, MD
+      - phonenumber: (301) 898-3300
+      - skill: Provide helpdesk support to 150+ end-users of proprietary software.
+      - skill: Configure and Maintain Windows Server 2012 R2 & Windows Server 2008.
+      - skill: Adtran Router configuration and setup.
+      - skill: Implementation and deployment of Group Policies at enterprise level.
+      - skill: Implementation of DHCP services.
+      - skill: Drafted plans and standard operating procedures for continuity of operations and disaster recovery. 
+      - skill: Answered questions about unique product features and resolved user problems.
+      - skill: Coordinated purchasing and support contract with Dell to begin end of life hardware cycles.
+
+  - company: Greater Lansing Association of Realtors
+    subfolderitems:
+      - jobtitle: Systems Administrator
+      - toandfromdates: June 2017 - December 2017
+      - location: Lansing, Mi
+      - phonenumber: (517) 323-4090
+      - skill: Primary Responsibilities include maintaining and troubleshooting Windows based systems.
+      - skill: Deployed Microsoft Office 365 to a staff of 10 employees saving the company over $19,000 the first year.
+      - skill: Trained over 900 members on software systems exclusive to the real estate industry.
+      - skill: Implemented a knowledge database of IT videos and how-to articles written at a comprehensive level.
+      - skill: Monitored all end users with Norton/McAfee Antivirus systems.
+      - skill: Performed regular backups using SharePoint online in conjunction with a custom FTP program. 
+      - skill: Answered questions about unique product features and resolved user problems.
+      - skill: Researched issues on MLS database system to resolve complaints, answer inquiries, and outline solutions.
+
+  - company: Bergmann Associates
+    subfolderitems:
+      - jobtitle: Systems Administrator
+      - toandfromdates: February 2016 - February 2017
+      - location: Lansing, Mi
+      - phonenumber: (517) 272-9835
+      - skill: Provided on-site and remote support for over 300 end users.
+      - skill: Maintained WSUS servers and deployment of critical software.
+      - skill: Packaged system updates and patches for deployment on SCCM.
+      - skill: Closed 95% of trouble tickets on the first call without escalation.
+      - skill: Commended for quickly resolving complex issues including system crashes, network slowdowns, connectivity problems, security breaches, virus quarantines and replication.
+      - skill: Set up secure WiFi, LAN and VoIP networks at remote locations, leading client/server configuration and performance-tuning of crucial infrastructure to ensure seamless business operations. 
+      - skill: Built custom BASH scripts to install CAD software.
+      - skill: Installed Skype for Business IP phones and Video conferencing systems
+
+  - company: United States Army
+    subfolderitems:
+      - jobtitle: Signal Support Specialist
+      - toandfromdates: June 2013 - October 2015
+      - location: Fort Riley, Kansas
+      - phonenumber: N/A
+      - skill: Maintained and configured Cisco switches and Routers on LAN networks of 50+ users.
+      - skill: Created and deployed custom department specific tactical ISO images using Norton Ghost.
+      - skill: Configured and maintained Windows Server 2008 R2 and Linux.
+      - skill: Active Directory account creation, maintenance, authentication services.
+      - skill: Exchange mailbox creation and services.
+      - skill: Installed and updated patches for McAfee Anti-virus as a Host based Intrusion Detection system. 
+      - skill: Deployed first ACAS antivirus server as a Network based Intrusion Detection system at a field level.
+      - skill: Instituted SharePoint services and provided training for local users.
+      - skill: Installed and deployed Print Server role in a tactical environment.
+
+  - company: United States Army
+    subfolderitems:
+      - jobtitle: MLRS Operations Fire Direction Specialist
+      - toandfromdates: January 2011 - June 2013
+      - location: Camp Casey, South Korea
+      - phonenumber: N/A
+      - skill: Recorded and transmitted firing data using the Fire Direction System (FDS) and voice radio.
+      - skill: Operated FDS, Advanced Field Artillery Tactical Data System (AFATDS) system which required advanced knowledge of tactical equipment.
+      - skill: Loaded Radio equipment with secure data.
+      - skill: Responsible for setting up OE-254 Antennas to establish Digital Communications.
+      - skill: Job required Secret Security Clearance. 
+
+education:
+  school:
+    - name: UMUC
+    - toandfromdates: January 2016 - January 2018
+    - degree: Associates of Arts in Computer Studies
+    - name: BLOC.IO
+    - toandfromdates: December 2017 - May 2018
+    - degree: Completed over 500hrs of coding coursework.

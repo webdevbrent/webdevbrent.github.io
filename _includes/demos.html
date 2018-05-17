@@ -1,0 +1,15 @@
+<h2 class="p-3 mt-3">
+    {% if site.demos.size == 1 %} Demo ({{ site.demos.size }}) {% else %} Demos ({{ site.demos.size }}) {% endif %}
+</h2>
+
+<ul class="list-group list-group-flush">
+    {% for demo in site.demos %}
+    {% assign indexmod3 = forloop.index | modulo: 3 %}
+    {% if indexmod3 == 0 %}<div style="clear: both;"></div>{% endif %}
+    <li class="list-group-item">
+      <h5><a href="{{ demo.url }}">{{ demo.title }}</a></h5>
+      <p>{{ demo.excerpt | truncatewords:75 }}</p>
+      <p class="mute">Categories: {{ demo.categories }}</p>
+    </li>
+    {% endfor %} 
+</ul>
