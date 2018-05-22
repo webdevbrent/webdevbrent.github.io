@@ -8,7 +8,6 @@ In this demo, I used jQuery to build an audio player. This demonstrates my abili
 
 You can find the github repo for this here >> [jQuery Audio Player](https://github.com/webdevbrent/bloc-jams-jquery)
 
-YOU CAN SEE A LIVE VERSION [HERE](https://nervous-mestorf-8c0398.netlify.com/)
 
 ## Code walkthrough
 In the root directory are several folders. An Assets, scripts and styles folder. There is also an index.html file which is how
