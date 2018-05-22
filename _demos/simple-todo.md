@@ -8,7 +8,6 @@ In this demo, I used jQuery to build a simple todo list app using jQuery. Visual
 
 You can find the github repo for this here >> [Simple To Do App](https://github.com/webdevbrent/to-do-app)
 
-YOU CAN SEE A LIVE VERSION [HERE](https://nervous-mestorf-8c0398.netlify.com/)
 
 ## Code walkthrough
 This is a very simple two file application. It could even be combined into one but for sanity sake I have chosen to keep it in separate files.
