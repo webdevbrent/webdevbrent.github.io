@@ -11,12 +11,15 @@ summary: >
 
 proskills:
   languages:
-    - HTML
+    - HTML5
     - CSS3
     - JavaScript
     - jQuery
     - Git
     - Bootstrap
+    - Ruby
+    - Ruby on Rails
+    - RSpec
   databases:
     - Firebase - Used to develop a simple chat application using the ReactJS library.
     - MongoDB - Used to develop an application utitlizing the MeteorJS framework.
