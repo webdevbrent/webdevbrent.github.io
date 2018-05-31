@@ -3,7 +3,7 @@ layout: post
 title:  "New IP's on A records for custom domains Github"
 date:   2018-05-22 14:35:10 -0400
 categories: github
-img: /img/github-custom-domain-setup.png
+img_path: /img/github-custom-domain-setup.png
 ---
 Adding a custom domain to your github hosted website is a neat trick. You can simply purchase a domain and still have your website
 hosted with github which takes a huge load off of my mind. Plus it is just easier to do a git push and be done with things.
