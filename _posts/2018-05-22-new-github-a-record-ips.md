@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-single
 title:  "New IP's on A records for custom domains Github"
 date:   2018-05-22 14:35:10 -0400
 categories: github
