@@ -43,6 +43,18 @@ p {
   .container {
       background-color: white;
   }
+  
+  .nav-link {
+    font-size: 16px;
+    border-bottom: 2px solid white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    text-decoration: underline;
+}
 
 /* MEDIA QUERIES */
 
