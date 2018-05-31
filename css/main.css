@@ -83,6 +83,10 @@ p {
     text-align: center;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
 }
 
 /* Smartphones (landscape) ----------- */
