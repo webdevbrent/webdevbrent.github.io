@@ -32,6 +32,12 @@ compskills:
   - skill: VPN connectivity - Implement and maintain a VPN server and VPN client.
 
 experience:
+  - company: SixGen | Full-Spectrum Cyber
+    subfolderitems:
+      - jobtitle: JR. Web Developer
+      - toandfromdates: July 2018 - Present
+      - location: Annapolis, MD
+      - phonenumber: (443) 440-5034
   - company: Beckleys Camping Center
     subfolderitems:
       - jobtitle: Systems Administrator
